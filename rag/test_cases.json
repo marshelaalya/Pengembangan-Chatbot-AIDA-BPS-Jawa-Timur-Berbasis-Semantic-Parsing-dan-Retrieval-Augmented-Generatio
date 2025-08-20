@@ -1,0 +1,411 @@
+[
+  {
+    "input": "Apa yang dimaksud dengan Harga Konsumen (HK)?",
+    "expected_output": "Harga Konsumen (HK) adalah harga transaksi yang terjadi antara penjual (pedagang eceran) dan pembeli (konsumen) secara eceran dengan pembayaran tunai."
+  },
+  {
+    "input": "Siapa yang menjadi responden Survei Harga Konsumen (SHK)?",
+    "expected_output": "Responden SHK adalah pedagang yang menjual barang atau jasa kebutuhan rumah tangga secara eceran."
+  },
+  {
+    "input": "Apa saja jenis nilai konsumsi dalam penghitungan IHK?",
+    "expected_output": "Dalam penghitungan IHK terdapat dua jenis nilai konsumsi. Pertama, nilai konsumsi dasar (P0Q0), yaitu total nilai pengeluaran rumah tangga setahun untuk setiap jenis barang/jasa yang dikonsumsi, diperoleh dari hasil SBH 2018. Kedua, nilai konsumsi bulan berjalan (PnQ0), yaitu nilai konsumsi dengan harga barang/jasa yang dikonsumsi pada bulan berjalan, diperoleh dari pengumpulan data SHK setiap bulan."
+  },
+  {
+    "input": "Apa itu pembangunan manusia?",
+    "expected_output": "Pembangunan manusia adalah proses untuk memperbanyak pilihan-pilihan yang dimiliki manusia dan merupakan model pembangunan tentang penduduk, untuk penduduk, dan oleh penduduk."
+  },
+  {
+    "input": "Bagaimana klasifikasi capaian Indeks Pembangunan Manusia (IPM)?",
+    "expected_output": "Capaian IPM suatu wilayah diklasifikasikan ke dalam beberapa kategori: Sangat Tinggi jika IPM ≥ 80; Tinggi jika 70 ≤ IPM < 80; Sedang jika 60 ≤ IPM < 70; dan Rendah jika IPM < 60."
+  },
+  {
+    "input": "Kapan dan oleh siapa Indeks Pembangunan Manusia (IPM) diperkenalkan?",
+    "expected_output": "Indeks Pembangunan Manusia (IPM) pertama kali diperkenalkan pada tahun 1990 oleh UNDP (United Nations Development Programme), salah satu organisasi internasional di bawah naungan PBB."
+  },    
+  {
+    "input": "Mengapa angka ketergantungan yang rendah penting bagi kesejahteraan penduduk?",
+    "expected_output": "Angka ketergantungan yang rendah penting karena dapat mendorong kesejahteraan penduduk yang lebih baik. Hal ini disebabkan karena produksi dapat meningkat dan investasi dapat berkembang."
+  },
+  {
+    "input": "Apa saja ukuran yang digunakan untuk memotret aspek fertilitas?",
+    "expected_output": "Beberapa ukuran untuk memotret aspek fertilitas antara lain: Angka Kelahiran Total (Total Fertility Rate/TFR), Angka Kelahiran Kasar (Crude Birth Rate/CBR), Angka Reproduksi Kasar (Gross Reproductive Rate/GRR), dan Angka Reproduksi Neto (Net Reproductive Rate/NRR)."
+  },
+  {
+    "input": "Apa saja indikator yang digunakan untuk menggambarkan kondisi tingkat kesehatan masyarakat?",
+    "expected_output": "Beberapa indikator yang digunakan untuk menggambarkan kondisi tingkat kesehatan masyarakat antara lain: angka kesakitan (morbiditas), angka kematian bayi (AKB), angka kelangsungan hidup bayi (AKHB), dan umur harapan hidup (UHH)."
+  },
+  {
+    "input": "Dari mana data produksi komoditas hortikultura diperoleh?",
+    "expected_output": "Data produksi komoditas hortikultura diperoleh dari Subdit Statistik Hortikultura BPS."
+  },
+  {
+    "input": "Dari mana data produksi perkebunan diperoleh?",
+    "expected_output": "Data produksi komoditas perkebunan diperoleh dari Dinas Perkebunan Kementerian Pertanian."
+  },
+  {
+    "input": "Dari mana data output kegiatan pertanian dan proporsi pengeluaran jasa pertanian diperoleh?",
+    "expected_output": "Output kegiatan pertanian diperoleh dari Subdit Neraca Barang BPS, sedangkan proporsi pengeluaran untuk jasa pertanian terhadap output diperoleh dari hasil Sensus Pertanian, Survei Struktur Ongkos Usaha Tani, dan Survei Perusahaan Peternakan yang dilakukan oleh BPS."
+  },
+  {
+    "input": "Apa saja sumber data yang digunakan untuk mengestimasi PKLNPRT?",
+    "expected_output": "Sumber data yang digunakan untuk mengestimasi PKLNPRT adalah Hasil Survei Khusus Lembaga Non-Profit (SK-LNP), Hasil updating direktori LNPRT yang memberikan informasi jumlah populasi LNPRT menurut jenis lembaga, dan Indeks Harga Konsumen (IHK)."
+  },           
+  {
+    "input": "Apa saja metode yang digunakan dalam penghitungan komponen perubahan inventori?",
+    "expected_output": "Terdapat dua metode yang digunakan dalam penghitungan komponen perubahan inventori, yaitu: Pendekatan langsung, yaitu pendekatan dari sisi korporasi; dan Pendekatan tidak langsung, yaitu pendekatan dari sisi komoditas."
+  },         
+  {
+    "input": "Apa saja sumber data yang digunakan dalam penghitungan ekspor-impor?",
+    "expected_output": "Sumber data yang digunakan dalam penghitungan ekspor-impor antara lain: Data Statistik Pemberitahuan Ekspor Barang (PEB) dari BPS dalam US$; Data Statistik Pemberitahuan Impor Barang (PIB) dari BPS dalam US$; Neraca Pembayaran Indonesia dari Bank Indonesia (BI); Laporan Simopel, yaitu laporan bulanan bongkar muat barang di pelabuhan; dan Informasi lalu-lintas barang yang keluar-masuk provinsi di jembatan timbang."
+  },
+  {
+    "input": "Apa sumber data utama untuk Profil Angkatan Kerja Perempuan Jawa Timur 2023?",
+    "expected_output": "Sumber data utama adalah hasil Survei Angkatan Kerja Nasional (Sakernas) Agustus 2023."
+  },
+  {
+    "input": "Bagaimana pengelompokan usia penduduk yang bekerja dalam pasar tenaga kerja?",
+    "expected_output": "Penduduk yang bekerja dapat dikategorikan menurut kelompok usia untuk melihat kontribusi dalam pasar tenaga kerja, yaitu: pekerja muda (15–24 tahun), pekerja prima (25–54 tahun), dan pekerja tua (55 tahun ke atas)."
+  },
+  {
+    "input": "Bagaimana penyerapan angkatan kerja perempuan di perdesaan menurut sektor?",
+    "expected_output": "Penyerapan angkatan kerja perempuan di perdesaan didominasi oleh sektor pertanian (47,57 persen), diikuti sektor perdagangan (19,43 persen), sektor industri (13,49 persen), sektor akomodasi makan dan minum (7,59 persen), serta sektor lainnya (11,92 persen)."
+  },
+  {
+    "input": "Bagaimana pengelompokan usia kepala rumah tangga miskin?",
+    "expected_output": "Kepala rumah tangga miskin dapat dikelompokkan dalam empat kelompok usia: (1) kurang dari 30 tahun, (2) 30 sampai 44 tahun, (3) 45 sampai 59 tahun, dan (4) di atas 60 tahun."
+  },    
+  {
+    "input": "Apa saja sumber data utama dalam publikasi Statistik Penduduk Lanjut Usia Jawa Timur 2023?",
+    "expected_output": "Sumber data utama dalam publikasi Statistik Penduduk Lanjut Usia Provinsi Jawa Timur 2023 adalah data hasil Survei Sosial Ekonomi Nasional (Susenas), Survei Angkatan Kerja Nasional (Sakernas), serta Proyeksi Penduduk Kabupaten/Kota Provinsi Jawa Timur 2020–2035 hasil Sensus Penduduk 2020."
+  },     
+  {
+    "input": "Apa yang dimaksud dengan Rumah Tangga Khusus?",
+    "expected_output": "Rumah Tangga Khusus adalah orang yang tinggal di asrama seperti asrama perawat, asrama mahasiswa, asrama TNI/Polisi, panti asuhan, panti jompo, dan sekelompok orang yang makan (indekos) berjumlah 10 orang atau lebih."
+  },
+  {
+    "input": "Di mana letak geografis Provinsi Jawa Timur?",
+    "expected_output": "Provinsi Jawa Timur terletak antara 7,12’’ Lintang Selatan – 8,48’ Lintang Selatan dan antara 111,0’ Bujur Timur – 114,4’ Bujur Timur."
+  },
+  {
+    "input": "Berapa luas wilayah Provinsi Jawa Timur?",
+    "expected_output": "Luas keseluruhan wilayah Provinsi Jawa Timur adalah 48.036,84 km²."
+  },
+  {
+    "input": "Kabupaten/kota mana yang memiliki jumlah hotel terbanyak di Jawa Timur?",
+    "expected_output": "Kota Batu merupakan kota dengan jumlah hotel paling banyak dibanding 38 kabupaten/kota lainnya di Provinsi Jawa Timur, yaitu terdapat 21 hotel bintang dan 1.025 hotel non bintang."
+  },
+  {
+    "input": "Apa yang dimaksud dengan kendaraan bermotor?",
+    "expected_output": "Kendaraan bermotor adalah setiap kendaraan yang digerakkan oleh peralatan teknik yang ada pada kendaraan tersebut, biasanya digunakan untuk angkutan orang atau barang di atas jalan raya selain kendaraan yang berjalan di atas rel."
+  },
+  {
+    "input": "Bagaimana metode yang digunakan dalam Kerangka Sampel Area (KSA) untuk estimasi luas panen padi?",
+    "expected_output": "KSA memanfaatkan teknologi citra satelit yang berasal dari LAPAN dan digunakan oleh BIG untuk mendelineasi peta lahan baku sawah. Peta tersebut divalidasi dan ditetapkan oleh Kementerian ATR/BPN untuk mengestimasi luas panen padi."
+  },
+  {
+    "input": "Bagaimana cara menghitung produksi padi?",
+    "expected_output": "Produksi padi diperoleh dari hasil perkalian antara luas panen (bersih) dengan produktivitas."
+  },
+  {
+    "input": "Bagaimana observasi dilakukan pada segmen sampel dalam metode KSA?",
+    "expected_output": "Setiap bulan, masing-masing sampel segmen diamati secara visual di 9 titik menggunakan handphone berbasis Android, sehingga dapat diamati kondisi pertanaman di segmen sampel tersebut."
+  },
+  {
+    "input": "Apa yang diperlukan dalam penghitungan konversi gabah menjadi beras?",
+    "expected_output": "Penghitungan konversi gabah menjadi beras memerlukan angka konversi dari Gabah Kering Panen (GKP) ke Gabah Kering Giling (GKG), dan dari GKG ke beras."
+  },
+  {
+    "input": "Apa yang dimaksud dengan Bahan Baku Air Bersih?",
+    "expected_output": "Bahan Baku Air Bersih adalah bahan baku yang digunakan oleh perusahaan air bersih dalam memproduksi air bersih, antara lain air baku dan bahan kimia penjernih air."
+  },
+  {
+    "input": "Apa yang dimaksud dengan Air Bersih yang Disalurkan?",
+    "expected_output": "Air Bersih yang Disalurkan adalah volume air bersih dalam meter kubik (m³) yang disalurkan oleh perusahaan air bersih kepada pelanggan air bersih."
+  },
+  {
+    "input": "Bagaimana metode pengumpulan data air bersih?",
+    "expected_output": "Metode pengumpulan data air bersih dilakukan melalui Survei Tahunan Perusahaan Air Bersih Tahun 2023 oleh BPS Kabupaten/Kota dengan cara pencacahan langsung ke setiap perusahaan menggunakan kuesioner."
+  },     
+  {
+    "input": "Dengan wilayah apa saja Provinsi Jawa Timur berbatasan?",
+    "expected_output": "Provinsi Jawa Timur berbatasan langsung dengan Samudera Hindia di sebelah selatan, Selat Bali di sebelah timur, Laut Jawa di sebelah utara, dan Provinsi Jawa Tengah di sebelah barat."
+  },
+  {
+    "input": "Gunung apa yang tertinggi dan terendah di Jawa Timur?",
+    "expected_output": "Gunung tertinggi di Pulau Jawa berada di Jawa Timur, yaitu Gunung Semeru yang terletak di Kabupaten Malang. Sedangkan gunung terendah adalah Gunung Lamongan yang terletak di Kabupaten Lumajang."
+  },
+  {
+    "input": "Apa saja sungai besar yang melintas di Jawa Timur?",
+    "expected_output": "Di Jawa Timur melintas dua sungai besar, yaitu Sungai Brantas dan Sungai Bengawan Solo."
+  },
+  {
+    "input": "Bagaimana pembagian wilayah administratif di Jawa Timur?",
+    "expected_output": "Wilayah administratif Jawa Timur terbagi menjadi 38 kabupaten/kota, yang terdiri dari 29 kabupaten dan 9 kota."
+  },
+  {
+    "input": "Dari mana data statistik ekspor dikumpulkan?",
+    "expected_output": "Data statistik ekspor yang digunakan dikumpulkan berdasarkan dokumen ekspor Pemberitahuan Ekspor Barang (PEB) yang diisi oleh eksportir dan telah diberikan izin muat oleh Kantor Pelayanan Bea dan Cukai (Kantor Pabean)."
+  },    
+  {
+    "input": "Barang apa saja yang tidak termasuk dalam statistik ekspor?",
+    "expected_output": "Barang-barang yang tidak termasuk dalam statistik ekspor antara lain pakaian dan barang-barang perhiasan penumpang, barang-barang yang dikirim untuk perwakilan Indonesia di luar negeri, barang-barang untuk ekspedisi dan ekshibisi atau pameran, pembungkus atau peti kemas untuk diisi di luar negeri, uang dan surat-surat berharga, barang-barang contoh, serta barang-barang yang dikirim ke luar negeri untuk diperbaiki."
+  },
+  {
+    "input": "Kapan periode penentuan ekspor ditetapkan?",
+    "expected_output": "Periode penentuan ekspor adalah tanggal diberikannya izin muat barang oleh pejabat Kantor Pelayanan Bea dan Cukai (Kantor Pabean) setelah dilakukan pemeriksaan seperlunya dan dicatat pada dokumen Pemberitahuan Ekspor Barang (PEB)."
+  },
+  {
+    "input": "Apa tujuan dari kegiatan pemantauan harga gabah secara berkala?",
+    "expected_output": "Kegiatan pemantauan harga gabah secara berkala bertujuan untuk memperoleh informasi terkini mengenai perbedaan harga di tiap wilayah observasi, komponen mutu gabah hasil panen yang dijual oleh petani, dan kasus harga dibandingkan Harga Pembelian Pemerintah (HPP)."
+  },            
+
+  {
+    "input": "Siapa saja yang terlibat dalam pengelolaan Statistik Hortikultura di tingkat provinsi dan kabupaten/kota?",
+    "expected_output": "Pengelolaan Statistik Hortikultura di tingkat provinsi dilaksanakan oleh BPS Provinsi dan Dinas Pertanian Provinsi, sedangkan di tingkat kabupaten/kota oleh BPS Kabupaten/Kota dan Dinas Pertanian Kabupaten/Kota melalui petugas pengumpul data di kecamatan yaitu Kepala Cabang Dinas, Mantri Tani, atau Petugas Pengumpul Data Dinas Pertanian Kabupaten/Kota."
+  },
+  {
+    "input": "Apa yang dimaksud dengan tanaman sayuran yang dipanen sekaligus?",
+    "expected_output": "Tanaman sayuran yang dipanen sekaligus adalah tanaman yang setelah dipanen langsung dibongkar atau dicabut, seperti bawang merah, bawang putih, bawang daun, kentang, kubis, kembang kol, petsai/sawi, dan wortel."
+  },
+  {
+    "input": "Apa itu SPH-SBS dan seberapa sering dilakukan?",
+    "expected_output": "SPH-SBS adalah Laporan Tanaman Sayuran dan Buah-buahan Semusim yang dilakukan setiap bulan."
+  },
+  {
+    "input": "Apa yang dimaksud dengan Nilai Tukar Nelayan?",
+    "expected_output": "Nilai Tukar Nelayan adalah angka perbandingan antara indeks harga yang diterima nelayan (It) dengan indeks harga yang dibayar nelayan (Ib) yang dinyatakan dalam persentase."
+  },
+  {
+    "input": "Apa arti NTP kurang dari 100 bagi petani?",
+    "expected_output": "NTP < 100, berarti petani mengalami penurunan dalam hal perdagangan ketika tingkat  rata-rata  harga  yang  dibayar  mengalami  kenaikan  yang  lebih  cepat daripada tingkat rata-rata harga yang diterima terhadap tahun dasar atau ketika tingkat  rata-rata  harga  yang  dibayar  mengalami  penurunan  yang  lebih  lambat daripada tingkat rata-rata harga yang diterima terhadap tahun dasar."
+  },    
+  {
+    "input": "Apa yang dimaksud dengan harga yang diterima nelayan?",
+    "expected_output": "Harga yang diterima nelayan adalah rata-rata harga produsen dari hasil produksi perikanan tangkap sebelum ditambahkan biaya transportasi/pengangkutan dan biaya pengepakan ke dalam harga penjualannya."
+  },
+  {
+    "input": "Dari mana sumber data jumlah kunjungan wisatawan mancanegara?",
+    "expected_output": "Data jumlah kunjungan wisatawan mancanegara yang disajikan didasarkan pada data harian kedatangan warga negara asing (WNA) melalui Bandara Internasional Juanda."
+  },
+  {
+    "input": "Dari mana data akomodasi wisatawan dikumpulkan?",
+    "expected_output": "Data akomodasi dikumpulkan melalui Survei Jasa Akomodasi Bulanan (VHTS) yang dilakukan oleh BPS setiap bulan."
+  },
+  {
+    "input": "Apa yang dimaksud dengan pelancong (excursionist)?",
+    "expected_output": "Pelancong (Excursionist) adalah setiap pengunjung seperti definisi di atas yang tinggal kurang dari 24 jam di tempat yang dikunjungi (termasuk cruise passenger yaitu setiap pengunjung yang tiba di suatu negara dengan kapal atau kereta api, di mana mereka tidak menginap di akomodasi yang tersedia di negara tersebut)."
+  },
+  {
+    "input": "Siapa yang dikategorikan sebagai pemuda menurut undang-undang?",
+    "expected_output": "Pemuda adalah penduduk berumur 16–30 tahun (berdasarkan Undang-undang Nomor 40 Tahun 2009 tentang Kepemudaan)."
+  },
+  {
+    "input": "Berapa usia minimum perkawinan menurut Undang-Undang terbaru, dan apa hubungannya dengan usia pemuda?",
+    "expected_output": "Berdasarkan Undang-Undang Nomor 16 Tahun 2019 tentang perubahan terhadap Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan, pada Pasal 7 disebutkan bahwa perkawinan hanya diizinkan apabila pria dan wanita sudah mencapai umur 19 tahun. Ini berarti yang diizinkan untuk memasuki pernikahan merupakan penduduk pada rentang usia pemuda."
+  },
+  {
+    "input": "Apa yang dimaksud dengan Angka Melek Huruf (AMH)?",
+    "expected_output": "Angka Melek Huruf (AMH) adalah proporsi penduduk usia tertentu yang mempunyai kemampuan membaca dan menulis huruf latin dan/atau huruf lainnya tanpa harus mengerti apa yang dibaca atau ditulisnya, terhadap kelompok penduduk usia tertentu."
+  },
+  {
+    "input": "Sejak kapan pendidikan nonformal mulai diperhitungkan dalam Angka Partisipasi Sekolah (APS)?",
+    "expected_output": "Sejak tahun 2007, pendidikan nonformal (Paket A, Paket B, dan Paket C) mulai diperhitungkan dalam Angka Partisipasi Sekolah (APS)."
+  },
+  {
+    "input": "Apa arti dari tingginya Angka Partisipasi Sekolah (APS) di suatu wilayah?",
+    "expected_output": "Semakin tinggi APS pada suatu kelompok usia tertentu di suatu wilayah menunjukkan terbukanya peluang yang lebih besar bagi penduduk di wilayah tersebut untuk mengenyam pendidikan menurut kelompok umur tertentu."
+  },                    
+  {
+    "input": "Apa yang dimaksud dengan konsumsi rumah tangga?",
+    "expected_output": "Konsumsi rumah tangga dibedakan atas konsumsi makanan dan bukan makanan, tanpa melihat dari mana asalnya atau perolehannya dan hanya dibatasi pada pengeluaran untuk kebutuhan rumah tangga saja."
+  },    
+  {
+    "input": "Bagaimana metode pencatatan konsumsi makanan, minuman, dan rokok dalam survei konsumsi rumah tangga?",
+    "expected_output": "Pencatatan konsumsi dan pengeluaran bahan makanan, bahan minuman, dan rokok menggunakan consumption approach (pendekatan konsumsi) selama seminggu terakhir, artinya banyaknya dan nilai bahan makanan, bahan minuman, dan rokok yang dicatat adalah yang benar-benar habis dikonsumsi oleh anggota rumah tangga selama seminggu terakhir."
+  },
+  {
+    "input": "Bagaimana pencatatan pengeluaran bukan makanan yang rutin dikonsumsi dilakukan?",
+    "expected_output": "Pencatatan pengeluaran bukan makanan dibedakan antara yang biasa (rutin setiap bulan) dan yang relatif jarang dikonsumsi. Untuk yang rutin dikonsumsi, ditanyakan atau dicatat pengeluaran sebulan terakhir, seperti listrik, air, bahan bakar, sabun, pulsa HP, dan sebagainya."
+  },
+  {
+    "input": "Apa referensi waktu yang digunakan untuk pencatatan pendapatan, penerimaan, dan pengeluaran bukan konsumsi?",
+    "expected_output": "Sebulan terakhir, yaitu jangka waktu sebulan yang berakhir sehari sebelum tanggal pencacahan."
+  },    
+  {
+    "input": "Apa referensi waktu yang digunakan dalam pencatatan konsumsi makanan rumah tangga?",
+    "expected_output": "Referensi waktu yang digunakan untuk konsumsi makanan adalah seminggu terakhir, yaitu jangka waktu tujuh hari berturut-turut yang berakhir sehari sebelum tanggal pencacahan."
+  },
+  {
+    "input": "Apa itu Garis Kemiskinan dan bagaimana penentuannya?",
+    "expected_output": "Garis Kemiskinan (GK) merupakan penjumlahan dari Garis Kemiskinan Makanan (GKM) dan Garis Kemiskinan Non Makanan (GKNM). Penduduk yang memiliki rata-rata pengeluaran per kapita per bulan di bawah Garis Kemiskinan dikategorikan sebagai penduduk miskin."
+  },
+  {
+    "input": "Apa saja isi paket komoditi kebutuhan dasar makanan dalam perhitungan garis kemiskinan?",
+    "expected_output": "Paket komoditi kebutuhan dasar makanan diwakili oleh 52 jenis komoditi, yang mencakup padi-padian, umbi-umbian, ikan, daging, telur dan susu, sayuran, kacang-kacangan, buah-buahan, minyak dan lemak, dan lain-lain."
+  },
+  {
+    "input": "Apa yang ditunjukkan oleh angka beban ketergantungan?",
+    "expected_output": "Angka Beban Ketergantungan menunjukkan beban yang ditanggung penduduk produktif terhadap penduduk belum produktif dan tidak produktif."
+  },
+  {
+    "input": "Mengapa angka ketergantungan yang rendah penting bagi Jawa Timur?",
+    "expected_output": "Karena angka ketergantungan yang rendah akan meningkatkan kualitas pertumbuhan ekonomi, memperbesar daya serap tenaga kerja, dan menurunkan angka pengangguran dan kemiskinan."
+  },
+  {
+    "input": "Apa saja yang termasuk dalam tanaman pangan?",
+    "expected_output": "Tanaman pangan meliputi komoditas padi, palawija (seperti jagung, kedele, kacang tanah, kacang hijau, ubi jalar, ubi kayu, dan lainnya), serta tanaman serelia seperti sorgum, jawawut, jelai, dan gandum."
+  },
+  {
+    "input": "Apa perbedaan tanaman hortikultura semusim dan tahunan?",
+    "expected_output": "Tanaman hortikultura semusim berumur pendek dan dipanen satu atau beberapa kali, sedangkan tanaman hortikultura tahunan berumur lebih dari satu tahun dan dipanen berkali-kali untuk satu kali penanaman."
+  },
+  {
+    "input": "Dari mana data produksi perkebunan diperoleh?",
+    "expected_output": "Data produksi komoditas perkebunan diperoleh dari Dinas Perkebunan Kementerian Pertanian."
+  },
+  {
+    "input": "Apa sumber data industri pengolahan migas?",
+    "expected_output": "Data diperoleh dari Ditjen Migas, ESDM."
+  },
+  {
+    "input": "Apa sumber data utama untuk Profil Angkatan Kerja Perempuan Jawa Timur 2023?",
+    "expected_output": "Sumber data utama adalah hasil Survei Angkatan Kerja Nasional (Sakernas) Agustus 2023."
+  },
+  {
+    "input": "Siapa yang termasuk dalam angkatan kerja?",
+    "expected_output": "Penduduk usia kerja (15 tahun ke atas) yang bekerja, punya pekerjaan namun sementara tidak bekerja, dan pengangguran."
+  },
+  {
+    "input": "Apa yang dimaksud dengan kemiskinan absolut?",
+    "expected_output": "Kemiskinan absolut adalah ketidakmampuan untuk mencukupi kebutuhan dasar minimum seperti pangan, sandang, kesehatan, perumahan, dan pendidikan."
+  },
+  {
+    "input": "Apa dasar hukum penyusunan publikasi Statistik Transportasi Jawa Timur 2023?",
+    "expected_output": "Dasar hukum publikasi Statistik Transportasi Provinsi Jawa Timur 2023 adalah: Undang-Undang Nomor 16 Tahun 1997, Peraturan Pemerintah Nomor 51 Tahun 1999, Peraturan Presiden Nomor 87 Tahun 2007, dan Peraturan Kepala BPS Nomor 7 Tahun 2008."
+  },
+  {
+    "input": "Apa perbedaan jalan kabupaten dan jalan kota?",
+    "expected_output": "Perbedaan jalan kabupaten dan jalan kota terletak pada lokasi administratif dan dasar kewenangan. Jalan kabupaten berada di wilayah kabupaten dan ditetapkan oleh SK Bupati, sedangkan jalan kota berada di wilayah kotamadya dan ditetapkan oleh SK Walikota."
+  },
+  {
+    "input": "Kapan pendataan Podes dilakukan dan untuk keperluan apa?",
+    "expected_output": "Pendataan Podes dilakukan dua tahun sebelum sensus. Tahun berakhiran '1' untuk mendukung Sensus Pertanian, '4' untuk Sensus Ekonomi, dan '8' untuk Sensus Penduduk."
+  },
+  {
+    "input": "Siapa yang berhak menerima BLT Dana Desa?",
+    "expected_output": "Penerima BLT Dana Desa adalah keluarga miskin atau tidak mampu di desa yang belum menerima program bantuan dari Pemerintah Pusat atau Daerah."
+  },
+  {
+    "input": "Dari mana sumber data Statistik Politik dan Keamanan 2023 berasal?",
+    "expected_output": "Sumber data Statistik Politik dan Keamanan 2023 berasal dari kompilasi data registrasi oleh dinas/instansi terkait dan BPS."
+  },
+  {
+    "input": "Berapa persen keterwakilan perempuan yang harus dipenuhi partai politik?",
+    "expected_output": "Partai politik wajib memenuhi keterwakilan perempuan minimal 30% dalam daftar calon anggota legislatif di setiap daerah pemilihan."
+  },
+  {
+    "input": "Bagaimana fluktuasi jumlah perda di kabupaten/kota tahun 2021 hingga 2023?",
+    "expected_output": "Jumlah perda di kabupaten/kota adalah 310 pada 2021, 363 pada 2022, dan 284 pada 2023."
+  },
+  {
+    "input": "Kabupaten/kota mana dengan persentase rumah tangga tanpa sufficient living space tertinggi?",
+    "expected_output": "Kota Surabaya memiliki persentase rumah tangga dengan sufficient living space terendah, yaitu 20,26 persen."
+  },
+  {
+    "input": "Apa jenis bahan bakar utama yang digunakan rumah tangga di Jawa Timur?",
+    "expected_output": "Jenis bahan bakar utama yang digunakan rumah tangga di Jawa Timur adalah gas/elpiji/gas kota/biogas."
+  },
+  {
+    "input": "Apa saja sumber data dalam pengumpulan data usaha perikanan oleh BPS?",
+    "expected_output": "Sumber data perikanan oleh BPS meliputi laporan triwulan pelabuhan perikanan dan TPI, laporan tahunan TPI, perusahaan penangkapan ikan (LTP), dan perusahaan budidaya ikan (LTB)."
+  },
+  {
+    "input": "Kapan pelaksanaan Susenas tahun 2023 dan apa saja jenis data yang dikumpulkan?",
+    "expected_output": "Pada tahun 2023, Susenas dilaksanakan satu kali di bulan Maret untuk estimasi kabupaten/kota dan provinsi. Data yang dikumpulkan adalah data KOR dan konsumsi/pengeluaran rumah tangga di bulan Maret, serta data modul dan konsumsi/pengeluaran rumah tangga di bulan September."
+  },
+  {
+    "input": "Berapa rata-rata pengeluaran makanan rumah tangga tahun 2023?",
+    "expected_output": "Rata-rata pengeluaran kelompok makanan pada tahun 2023 sebesar 657 ribu rupiah, naik dari 600 ribu rupiah pada periode sebelumnya."
+  },
+  {
+    "input": "Komoditas bumbu apa saja yang paling banyak dikonsumsi rumah tangga?",
+    "expected_output": "Komoditas bumbu yang paling banyak dikonsumsi rumah tangga adalah bawang merah, bawang putih, cabai merah, dan cabai rawit."
+  },  
+  {
+    "input": "Apa yang dimaksud dengan Angka Partisipasi Murni (APM)?",
+    "expected_output": "Angka Partisipasi Murni (APM) adalah proporsi anak sekolah pada suatu kelompok usia tertentu yang bersekolah pada jenjang yang sesuai dengan kelompok usianya, terhadap seluruh anak pada kelompok usia tersebut. APM digunakan untuk mengukur proporsi anak yang bersekolah tepat pada waktunya dan sejak tahun 2007 mencakup pendidikan nonformal seperti Paket A, B, dan C."
+  },
+  {
+    "input": "Bagaimana tren Angka Partisipasi Sekolah (APS) di Jawa Timur pada tahun 2023?",
+    "expected_output": "APS di Jawa Timur pada tahun 2023 cenderung mengalami kenaikan dibandingkan tahun 2022. APS usia 7–12 tahun naik dari 99,14% menjadi 99,28%, usia 13–15 tahun tetap di 97,64%, dan usia 16–18 tahun naik dari 73,40% menjadi 74,07%."
+  },
+  {
+    "input": "Apa perbedaan pencapaian pendidikan antara wilayah perkotaan dan perdesaan?",
+    "expected_output": "Di wilayah perdesaan, penduduk dengan pendidikan maksimal SD masih mendominasi. Sedangkan di wilayah perkotaan, penduduk berpendidikan minimal SMP lebih dominan, terutama mereka yang tamat SMA atau sederajat."
+  },
+  {
+    "input": "Berapa persen pemuda di Jawa Timur yang tinggal sendiri?",
+    "expected_output": "Sebanyak 0,36 persen pemuda merupakan rumah tangga tunggal atau tinggal sendiri. Persentase lebih tinggi terjadi di perkotaan (0,47 persen) dibandingkan perdesaan (0,21 persen)."
+  },
+  {
+    "input": "Apa indikator pembangunan pendidikan untuk pemuda?",
+    "expected_output": "Indikator pembangunan pendidikan untuk pemuda antara lain partisipasi sekolah, angka buta huruf, rata-rata lama sekolah, dan pendidikan tertinggi yang ditamatkan."
+  },
+  {
+    "input": "Bagaimana tren angka buta huruf pemuda di Jawa Timur?",
+    "expected_output": "Tren angka buta huruf pemuda di Jawa Timur dalam lima tahun terakhir mengalami penurunan. Angka buta huruf pemuda perempuan lebih rendah dibandingkan laki-laki, yaitu 0,05 persen berbanding 0,07 persen."
+  },
+  {
+    "input": "Dari mana data kunjungan wisatawan mancanegara ke Jawa Timur diperoleh?",
+    "expected_output": "Data kunjungan wisatawan mancanegara ke Jawa Timur diperoleh dari Direktorat Jenderal Imigrasi melalui data harian kedatangan WNA di Bandara Internasional Juanda, melalui pertukaran data online setiap bulan antara BPS dan Direktorat Jenderal Imigrasi."
+  },
+  {
+    "input": "Apa saja negara asal wisatawan mancanegara terbanyak ke Jawa Timur?",
+    "expected_output": "Sepuluh negara asal wisatawan mancanegara terbanyak ke Jawa Timur adalah Malaysia, Tiongkok, Singapura, Amerika Serikat, Taiwan, India, Thailand, Jepang, Korea Selatan, dan Perancis."
+  },
+  {
+    "input": "Bagaimana BPS mengumpulkan data usaha perikanan?",
+    "expected_output": "Badan Pusat Statistik melakukan pengumpulan data melalui kompilasi berbagai unit usaha perikanan, antara lain melalui: Laporan Triwulan Pelabuhan Perikanan (PPS/PPN/PPP/PPI) dan Tempat Pelelangan Ikan (TPI), Laporan Tahunan Tempat Pelelangan Ikan (LTPI), Laporan Tahunan Perusahaan Penangkapan Ikan (LTP), dan Laporan Tahunan Perusahaan Budidaya Ikan (LTB)."
+  },
+  {
+    "input": "Data apa saja yang dikumpulkan dalam survei perusahaan perikanan tahun 2023?",
+    "expected_output": "Data yang dikumpulkan antara lain status perusahaan pada bulan Desember 2023, serta data tertentu yang dikumpulkan dalam rentang waktu satu tahun (Januari–Desember 2023)."
+  },
+  {
+    "input": "Metode apa yang digunakan dalam pengumpulan data perusahaan perikanan berbadan hukum?",
+    "expected_output": "Metode yang dipakai dalam pengumpulan data perusahaan berbadan hukum adalah pencacahan lengkap terhadap seluruh perusahaan budidaya atau penangkapan ikan secara rutin setiap tahun."
+  },
+  {
+    "input": "Apa saja fasilitas yang ideal dimiliki rumah sebagai tempat hunian yang layak?",
+    "expected_output": "Rumah sebagai tempat hunian yang layak ditinggali idealnya memiliki fasilitas kamar tidur, kamar mandi, dapur, jamban (WC) tersendiri, adanya penerangan listrik serta sumber air bersih untuk minum, memasak, dan mandi/cuci/dll."
+  },
+  {
+    "input": "Indikator apa yang digunakan untuk mengukur tingkat kejahatan?",
+    "expected_output": "Secara umum indikator yang digunakan untuk mengukur tingkat kejahatan adalah angka jumlah kejahatan (crime total)."
+  },
+  {
+    "input": "Untuk apa pendataan Podes dilakukan pada tahun berakhiran '1'?",
+    "expected_output": "Pada tahun berakhiran '1', pendataan Podes dilaksanakan untuk mendukung Sensus Pertanian, yaitu identifikasi wilayah konsentrasi usaha pertanian menurut sektor dan subsektor."
+  },
+  {
+    "input": "Untuk apa pendataan Podes dilakukan pada tahun berakhiran '4'?",
+    "expected_output": "Pada tahun berakhiran '4', pendataan Podes dilaksanakan untuk mendukung Sensus Ekonomi, yaitu identifikasi usaha menurut sektor dan subsektor."
+  },
+  {
+    "input": "Untuk apa pendataan Podes dilakukan pada tahun berakhiran '8'?",
+    "expected_output": "Pada tahun berakhiran '8', pendataan Podes dilaksanakan untuk mendukung Sensus Penduduk, yaitu untuk identifikasi wilayah permukiman baru."
+  },
+  {
+    "input": "Apa saja sumber data dalam Statistik Angkutan Darat?",
+    "expected_output": "Sumber data dalam Statistik Angkutan Darat meliputi: Direktorat Jenderal Bina Marga, Kementerian Pekerjaan Umum dan Perumahan Rakyat, Balai Besar Pelaksanaan Jalan Nasional Jawa Timur – Bali, Dinas Pekerjaan Umum Pemerintah Kabupaten/Kota, dan PT (Persero) Kereta Api Indonesia."
+  },                                   
+  {
+    "input": "Apa saja sumber data dalam Statistik Angkutan Laut?",
+    "expected_output": "Sumber data dalam Statistik Angkutan Laut meliputi: PT Pelabuhan Indonesia (Pelindo) III, PT ASDP Indonesian Ferry, dan Dinas Perhubungan Pemerintah Kabupaten/Kota."
+  },
+  {
+    "input": "Apa saja sumber data dalam Statistik Angkutan Udara?",
+    "expected_output": "Sumber data dalam Statistik Angkutan Udara meliputi: PT Angkasa Pura I, PT Angkasa Pura II, dan Dinas Perhubungan Pemerintah Kabupaten/Kota."
+  }        
+]

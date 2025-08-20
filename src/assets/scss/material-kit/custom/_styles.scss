@@ -1,0 +1,139 @@
+.table-container {
+  overflow-x: auto;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background: white;
+  padding: 1rem;
+  max-width: 800px; // Batasi lebar maksimum
+  width: 100%;
+}
+
+.bps-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  font-size: 0.95rem;
+  table-layout: fixed; // Penting untuk mengontrol lebar kolom
+  
+  th, td {
+    padding: 0.875rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // Atur lebar kolom spesifik
+  th:first-child,
+  td:first-child {
+    width: 35%; // Kolom periode
+  }
+
+  th:last-child,
+  td:last-child {
+    width: 20%; // Kolom nilai
+    text-align: right;
+  }
+
+  th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    color: #334155;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+  }
+
+  tbody {
+    tr {
+      &:last-child td {
+        border-bottom: none;
+      }
+
+      &:hover {
+        background-color: #f8fafc;
+      }
+    }
+  }
+
+  // Styling untuk kolom
+  td:first-child {
+    font-weight: 500;
+    color: #1e293b;
+  }
+
+  td:last-child {
+    font-weight: 600;
+    color: #0f172a;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .table-container {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 6px;
+  }
+
+  .bps-table {
+    font-size: 0.875rem;
+    
+    th, td {
+      padding: 0.75rem 0.875rem;
+    }
+
+    th {
+      font-size: 0.75rem;
+    }
+
+    // Atur lebar kolom untuk mobile
+    th:first-child,
+    td:first-child {
+      width: 45%;
+    }
+
+    th:last-child,
+    td:last-child {
+      width: 25%;
+    }
+  }
+}
+
+// Dark Mode Support (opsional)
+@media (prefers-color-scheme: dark) {
+  .table-container {
+    background: #1a1a1a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .bps-table {
+    background: #1a1a1a;
+    
+    th {
+      background-color: #262626;
+      color: #e5e5e5;
+    }
+
+    td {
+      color: #d4d4d4;
+      border-bottom-color: #333;
+    }
+
+    tr:nth-child(even) {
+      background-color: #212121;
+    }
+
+    tbody tr:hover {
+      background-color: #262626;
+    }
+  }
+}

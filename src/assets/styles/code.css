@@ -1,0 +1,344 @@
+/* Reset dan override style global untuk code blocks */
+.chat-message pre,
+.chat-message pre code,
+.chat-message .code-block,
+.chat-message .code-block pre,
+.chat-message .code-block code {
+  all: initial;
+  font-family: 'Fira Code', monospace !important;
+  line-height: 1.6 !important;
+  box-sizing: border-box !important;
+}
+
+/* Styling dasar untuk code blocks dengan spesifisitas tinggi */
+.chat-message pre.code-block,
+.chat-message .code-block {
+  background-color: #ffffff !important;
+  padding: 1.5rem !important;
+  border-radius: 8px !important;
+  overflow-x: auto !important;
+  margin: 1rem 0 !important;
+  border: none !important;
+  display: block !important;
+}
+
+.chat-message .code-block code,
+.chat-message pre code {
+  font-family: 'Fira Code', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  color: #f8f8f2 !important; /* Warna teks dasar terang */
+  background: transparent !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  display: block !important;
+}
+
+/* Header kode dengan spesifisitas tinggi */
+.chat-message .code-block .code-header,
+.chat-message pre .code-header {
+  background: transparent!important;
+  color: #f8f8f2 !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem !important;
+  border-bottom: 1px solid #6272a4 !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+/* Universal syntax highlighting untuk semua bahasa */
+.chat-message pre code span,
+.chat-message .code-block code span {
+  font-family: 'Fira Code', monospace !important;
+  background: transparent !important;
+  text-shadow: none !important;
+}
+
+/* Syntax tokens */
+.chat-message pre code .keyword,
+.chat-message pre code .control-flow,
+.chat-message pre code .builtin { color: #ff79c6 !important; background: transparent!important; } /* Pink terang */
+
+.chat-message pre code .string,
+.chat-message pre code .char { color: #f1fa8c !important; background: transparent!important;} /* Kuning terang */
+
+.chat-message pre code .number,
+.chat-message pre code .boolean,
+.chat-message pre code .constant { color: #bd93f9 !important; background: transparent!important;} /* Ungu terang */
+
+.chat-message pre code .comment { 
+  color: #6272a4 !important;
+  font-style: italic !important;
+  background: transparent!important;
+} /* Biru keabu-abuan */
+
+.chat-message pre code .function,
+.chat-message pre code .method { color: #50fa7b !important;background: transparent!important; } /* Hijau terang */
+
+.chat-message pre code .operator,
+.chat-message pre code .punctuation { color: #ff79c6 !important; background: transparent!important;} /* Pink terang */
+
+.chat-message pre code .variable,
+.chat-message pre code .parameter { color: #8be9fd !important; background: transparent!important;} /* Cyan terang */
+
+.chat-message pre code .class-name,
+.chat-message pre code .type { color: #ffb86c !important; background: transparent!important;} /* Orange terang */
+
+/* Inline code */
+.chat-message p code,
+.chat-message li code {
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-family: 'Fira Code', monospace !important;
+  font-size: 0.9em !important;
+  border: none !important;
+  margin: 0 0.2em !important;
+}
+
+/* Scrollbar styling */
+.chat-message pre::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.chat-message pre::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.chat-message pre::-webkit-scrollbar-thumb {
+  background: #6272a4;
+  border-radius: 4px;
+}
+
+.chat-message pre::-webkit-scrollbar-thumb:hover {
+  background: #44475a;
+}
+
+/* Hapus semua style lama yang duplikat di bawah ini */
+pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  background: transparent!important;
+}
+
+code {
+  color: #f2f2f8!important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  background: transparent!important;
+}
+
+
+/* Styling untuk heading yang lebih proporsional */
+.markdown-heading {
+  font-weight: 500;
+  color: #fb09ae;
+  text-shadow: none !important;
+  margin: 1rem 0 0.5rem;
+}
+
+h1.markdown-heading {
+  font-size: 1.5em;
+}
+
+h2.markdown-heading {
+  font-size: 1.3em;
+}
+
+h3.markdown-heading {
+  font-size: 1.2em;
+}
+
+h4.markdown-heading {
+  font-size: 1.1em;
+}
+
+h5.markdown-heading, h6.markdown-heading {
+  font-size: 1em;
+}
+
+/* Perbaikan untuk code blocks */
+/* Styling untuk code blocks dengan warna yang lebih kontras */
+.code-block {
+  background: #282a36;
+  border-radius: 8px;
+  margin: 1rem 0;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.code-header {
+  background: rgb(13, 13, 14);
+  color: #569cd6;
+  text-shadow: none !important;
+  padding: 0.5rem 1rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.code-block code {
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d4d4d4;
+}
+
+/* Syntax highlighting dengan warna yang lebih kontras */
+.language-r .keyword,
+.language-python .keyword { 
+  color: #569cd6; /* Biru lebih terang */
+  background: transparent!important;
+}
+
+.language-r .string,
+.language-python .string { 
+  color: #ce9178; /* Orange kemerahan */
+  background: transparent!important;
+}
+
+.language-r .number,
+.language-python .number { 
+  color: #b5cea8; /* Hijau muda */
+  background: transparent!important;
+}
+
+.language-r .comment,
+.language-python .comment { 
+  color: #6a9955; /* Hijau untuk komentar */
+  background: transparent!important;
+}
+
+.language-r .function,
+.language-python .function { 
+  color: #dcdcaa; /* Kuning pucat */
+  background: transparent!important;
+}
+
+.language-r .operator,
+.language-python .operator { 
+  color: #d4d4d4; /* Putih */
+  background: transparent!important;
+}
+
+.language-r .variable,
+.language-python .variable { 
+  color: #9cdcfe; /* Biru muda */
+  background: transparent!important;
+}
+
+/* Inline code dengan warna yang lebih kontras */
+.inline-code {
+  background: #1e1e1e;
+  color: #c9078c!important;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+/* Styling untuk paragraf dan heading dalam chat message */
+.chat-message p {
+  color: #f8f8f2 !important; /* Warna teks terang Dracula theme */
+  margin: 1rem 0 !important;
+  line-height: 1.6 !important;
+}
+
+.chat-message h1,
+.chat-message h2,
+.chat-message h3,
+.chat-message h4,
+.chat-message h5,
+.chat-message h6 {
+  color: #bd93f9 !important; /* Ungu terang Dracula theme */
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.chat-message h1 { font-size: 1.75em !important; }
+.chat-message h2 { font-size: 1.5em !important; }
+.chat-message h3 { font-size: 1.25em !important; }
+.chat-message h4 { font-size: 1.1em !important; }
+.chat-message h5,
+.chat-message h6 { font-size: 1em !important; }
+
+/* Styling untuk list */
+.chat-message ul,
+.chat-message ol {
+  color: #f8f8f2 !important;
+  margin: 1rem 0 !important;
+  padding-left: 2rem !important;
+}
+
+.chat-message li {
+  margin: 0.5rem 0 !important;
+  line-height: 1.6 !important;
+}
+
+/* Styling untuk link */
+.chat-message a {
+  color: #8be9fd !important; /* Cyan terang Dracula theme */
+  text-decoration: none !important;
+}
+
+.chat-message a:hover {
+  text-decoration: underline !important;
+}
+
+/* Styling untuk blockquote */
+.chat-message blockquote {
+  border-left: 4px solid #6272a4 !important; /* Biru keabu-abuan Dracula theme */
+  margin: 1rem 0 !important;
+  padding-left: 1rem !important;
+  color: #f8f8f2 !important;
+  font-style: italic !important;
+}
+
+/* Styling untuk tombol PDF */
+.chat-message .bps-button {
+  display: inline-block !important;
+  padding: 8px 16px !important;
+  margin: 4px !important;
+  background-color: #44475a !important;
+  color: #f8f8f2 !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  transition: all 0.3s ease !important;
+  border: 1px solid #6272a4 !important;
+}
+
+.chat-message .bps-button:hover {
+  background-color: #6272a4 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+}
+
+.chat-message .bps-button i {
+  margin-right: 8px !important;
+}
+
+.chat-message .bps-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin: 16px 0 !important;
+}
